@@ -19,6 +19,9 @@
     rofi-wayland # app launcher
     dunst # notification window
     eww # widget system
+
+    discord
+    spotify
   ];
 
 
