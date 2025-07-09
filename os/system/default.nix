@@ -9,5 +9,7 @@
     ./network.nix
     ./nix.nix
     ./timeZone.nix
+
+    ../wm/hypr
   ];
 }

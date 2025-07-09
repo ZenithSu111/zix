@@ -1,4 +1,4 @@
-{...}:
+{config,...}:
 {
   # Enable NVIDIA driver
   hardware.graphics = {

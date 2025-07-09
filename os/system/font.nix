@@ -29,7 +29,7 @@
 
   fonts.packages = with pkgs; [
     noto-fonts           # 英文、拉丁字母等
-    noto-fonts-cjk       # 繁中、簡中、日文、韓文
+    noto-fonts-cjk-sans  # 繁中、簡中、日文、韓文
     noto-fonts-emoji     # Emoji 字體
   ];
 

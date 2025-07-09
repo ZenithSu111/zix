@@ -13,6 +13,11 @@
 
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm.enable = true;
+  xdg.portal = {
+    enable = true;
+    extraPortals = [ pkgs.kdePackages.xdg-desktop-portal-hyprland
+ ];
+  };
 
   # Configure keymap in X11
   services.xserver.xkb = {
@@ -31,13 +36,8 @@
     description = "zenthus";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      kdePackages.kate
-    #  thunderbird
     ];
   };
-  # Enable automatic login for the user.
-  services.displayManager.autoLogin.enable = true;
-  services.displayManager.autoLogin.user = "zenthus";
 
 
   # Allow unfree packages
