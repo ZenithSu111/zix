@@ -18,7 +18,8 @@
     wl-clipboard # wl-copy and wl-paste for copy/paste from stdin / stdout
     rofi-wayland # app launcher
     dunst # notification window
-    eww # widget system
+    #eww # widget system
+    waybar
 
 
     discord
