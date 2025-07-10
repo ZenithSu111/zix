@@ -1,8 +1,8 @@
 {
   imports = [
     ./packages.nix
-
-    ./eww.nix
+    ./config
+    
     ./ghostty.nix
     ./git.nix
     ./home.nix

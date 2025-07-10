@@ -17,7 +17,7 @@
 
       exec-once =[
         "hyprpaper"
-        "sleep 1 && eww daemon"
+        "waybar"
       ];
 
       bind = [
