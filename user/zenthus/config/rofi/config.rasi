@@ -1,98 +1,23 @@
-configuration{
-    modi: "run,drun,window";
-    lines: 5;
-    font: "ZedMono Nerd Font Propo 12";
-    show-icons: true;
-    icon-theme: "Paper Mono";
-    terminal: "st";
-    drun-display-format: "{icon} {name}";
-    location: 0;
-    disable-history: false;
-    hide-scrollbar: true;
-    display-drun: "   Apps ";
-}
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Ja KooLit - Default 
 
-@theme "everblush"
+* All main themes or configs are located in ~/.config/rofi/themes/
+* If you want to edit the config, that is where you should edit NOT here 
 
-element-text, element-icon , mode-switcher {
-    background-color: inherit;
-    text-color:       inherit;
-}
+* To load a new theme, manually edit the file path below or choose desired theme via rofi theme selector (choose via app menu)
 
-window {
-    height: 360px;
-    border: 3px;
-    border-color: @border-col;
-    background-color: @bg-col;
-}
+* Alternative way to Load (preferred) own cooked by Ja 
+* SUPER CTRL R - Choose style & SUPER CTRL SHIFT R 
 
-mainbox {
-    background-color: @bg-col;
-}
+* TIPS 
+* If you have edited a config, rename it with a unique name. During update, the contents of 
+* ~/.config/rofi/themes/ will be replaced. */
 
-inputbar {
-    children: [prompt,entry];
-    background-color: @bg-col;
-    border-radius: 5px;
-    padding: 2px;
-}
+/* ---- Global Configuration Fonts ---- */
+@import "~/.config/rofi/0-shared-fonts.rasi"
 
-prompt {
-    background-color: @blue;
-    padding: 6px;
-    text-color: @bg-col;
-    border-radius: 3px;
-    margin: 20px 0px 0px 20px;
-}
+/* note: Main themes in ~/.config/rofi/themes */
+/* You can manually change here or you can use rofi theme selector SUPER SHIFT E */
 
-textbox-prompt-colon {
-    expand: false;
-    str: ":";
-}
 
-entry {
-    padding: 6px;
-    margin: 20px 0px 0px 10px;
-    text-color: @fg-col;
-    background-color: @bg-col;
-}
-
-listview {
-    border: 0px 0px 0px;
-    padding: 6px 0px 0px;
-    margin: 10px 0px 0px 20px;
-    columns: 2;
-    background-color: @bg-col;
-}
-
-element {
-    padding: 5px;
-    background-color: @bg-col;
-    text-color: @fg-col  ;
-}
-
-element-icon {
-    size: 25px;
-}
-
-element selected {
-    background-color:  @selected-col ;
-    text-color: @fg-col2  ;
-}
-
-mode-switcher {
-    spacing: 0;
-  }
-
-button {
-    padding: 10px;
-    background-color: @bg-col-light;
-    text-color: @grey;
-    vertical-align: 0.5; 
-    horizontal-align: 0.5;
-}
-
-button selected {
-  background-color: @bg-col;
-  text-color: @blue;
-}
+@theme "~/.config/rofi/themes/KooL_style-4.rasi"

@@ -7,7 +7,6 @@
 
     vscode
 
-    nerd-fonts.zed-mono
   ];
 
 }

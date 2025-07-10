@@ -1,14 +1,11 @@
 { config, pkgs, ... }:
-
-let
-  rofiConfigPath = builtins.toString ./rofi;
-  waybarConfigPath = builtins.toString ./waybar;
-in
 {
-  home.file.".config/rofi" = {
-    source = rofiConfigPath;
-  };
   home.file.".config/waybar" = {
-    source = waybarConfigPath;
+    source = ./waybar;
+    recursive = true;
+  };
+  home.file.".config/rofi" = {
+    source = ./rofi;
+    recursive = true;
   };
 }
