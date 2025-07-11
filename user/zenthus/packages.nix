@@ -7,8 +7,6 @@
 
     vscode
 
-    nerd-fonts.jetbrains-mono
-
   ];
 
 }

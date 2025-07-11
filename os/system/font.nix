@@ -31,15 +31,16 @@
     noto-fonts           # 英文、拉丁字母等
     noto-fonts-cjk-sans  # 繁中、簡中、日文、韓文
     noto-fonts-emoji     # Emoji 字體
+    nerd-fonts.zed-mono
   ];
 
-  fonts.fontconfig = {
-    enable = true;
-    defaultFonts = {
-      sansSerif = [ "Noto Sans CJK TC" "Noto Sans" ];
-      serif = [ "Noto Serif CJK TC" "Noto Serif" ];
-      monospace = [ "Noto Sans Mono CJK TC" "Noto Sans Mono" ];
-      emoji = [ "Noto Color Emoji" ];
-    };
-  };
+  # fonts.fontconfig = {
+  #   enable = true;
+  #   defaultFonts = {
+  #     sansSerif = [ "Noto Sans CJK TC" "Noto Sans" ];
+  #     serif = [ "Noto Serif CJK TC" "Noto Serif" ];
+  #     monospace = [ "Noto Sans Mono CJK TC" "Noto Sans Mono" ];
+  #     emoji = [ "Noto Color Emoji" ];
+  #   };
+  # };
 }
