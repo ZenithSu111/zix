@@ -5,6 +5,7 @@
    enableZshIntegration = true;
    settings = {
     font-size = 16;
+    font-family = "ZedMono Nerd Font Mono";
     theme = "/home/zenthus/.config/ghostty/themes/gruvbox-material-soft-dark";
 
    };

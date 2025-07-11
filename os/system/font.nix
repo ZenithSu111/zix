@@ -34,13 +34,13 @@
     nerd-fonts.zed-mono
   ];
 
-  # fonts.fontconfig = {
-  #   enable = true;
-  #   defaultFonts = {
-  #     sansSerif = [ "Noto Sans CJK TC" "Noto Sans" ];
-  #     serif = [ "Noto Serif CJK TC" "Noto Serif" ];
-  #     monospace = [ "Noto Sans Mono CJK TC" "Noto Sans Mono" ];
-  #     emoji = [ "Noto Color Emoji" ];
-  #   };
-  # };
+  fonts.fontconfig = {
+    enable = true;
+    defaultFonts = {
+      sansSerif = [ "Noto Sans CJK TC" "Noto Sans" ];
+      serif = [ "Noto Serif CJK TC" "Noto Serif" ];
+      monospace = [ "Noto Sans Mono CJK TC" "Noto Sans Mono" ];
+      emoji = [ "Noto Color Emoji" ];
+    };
+  };
 }
