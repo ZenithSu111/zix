@@ -23,7 +23,7 @@
 
     adwaita-icon-theme# system icons
 
-    nerd-fonts.jetbrains-mono
+
 
     discord
     spotify
